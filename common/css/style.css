@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+
+header {
+    height: 150px;
+    color: white;
+    background-color: #37517e;
+    margin-top: 10px;
+    position: relative;
+    border-radius: 10px;
+}
+
+
+.header-side {
+    font-size: 30px;
+    font-family: "Jost", sans-serif;
+    margin-left: 10%;
+}
+
+.search {
+    margin-left: 41%;
+    position: absolute;
+    bottom: 10px;
+}
+
+
+.search_container{
+    box-sizing: border-box;
+    position: relative;
+    border: 1px solid #999;
+    padding: 3px 10px;
+    border-radius: 20px;
+    height: 2.3em;
+    width: 265px;
+    overflow: hidden;
+  }
+  .search_container input[type="text"]{
+    border: none;
+    height: 2.0em;
+  }
+  .search_container input[type="text"]:focus {
+    outline: 0;
+  }
+  .search_container input[type="submit"]{
+    cursor: pointer;
+    font-family: FontAwesome;
+    border: none;
+    background: #3879D9;
+    color: #fff;
+    position: absolute;
+    width: 3.5em;
+    height: 3.0em;
+    right:0px;
+    top: -3px;
+    outline : none;
+  }
+
+  .search p {
+      text-align: center;
+      margin: 0;
+  }
+
+  .card {
+    background-color: floralwhite;
+    box-shadow: 10px 10px 4px #ccc ;
+  }
+
+  .category {
+      margin: 10px 300px;
+  }
+
+  header p {
+      text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    cursor:pointer;
+    cursor: finger;
+  }
+
+  .breadcrumb-item a {
+      color: blue;
+  }
+
+  .title p {
+      font-size: 28px;
+  }
+
+
+  /*ボタンの形状*/
+.card{
+    text-decoration: none;
+    outline: none;
+    transition: all .3s;
+}
+
+  .card:hover {
+    top:-3px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  
+
